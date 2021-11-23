@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;  
+
+}
+
+/* sempre que for se fererir a um ID colocar "#" antes*/
+#titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkslategray;
+    margin-left: 7%;
+}
+
+#subtitulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkslategray;
+    margin-left: 10%;
+
+}
+
+fieldset{
+    border: 0;
+
+}
+
+body{
+    background-color: dimgray ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: black;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+/* sempre que for se fererir a uma CLASSE colocar "." antes*/
+.campo{
+    margin-bottom: 1em
+
+}
+
+.campo label{
+     margin-bottom: 0.2em;
+     color: black;
+     
+}
+
+fieldset.grupo.campo{
+
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid gray;
+    box-shadow:2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+.botao{
+    font-size: 1.2em;
+    background: darkslategrey;
+    border: 0;
+    margin-bottom: 1em;
+    color: white;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.botao:hover{
+    background: darkorange;
+    box-shadow: inser 2px 2px 2px rgba(0, 0, 0,0.2);
+}
+
+#check{
+    display: inline-block;
+}
